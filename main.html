@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/cd7acc93d1.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="vegas.min.css" />
+    <script src="https://kit.fontawesome.com/cd7acc93d1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&display=swap&subset=japanese" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script script type="text/javascript" src="vegas.min.js"></script> 
+    <script type="text/javascript" src="http://trunail.jp/wp/wp-content/themes/initializr/js/jquery.mmenu.all.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>main</title>
+</head>
+<body>
+    <header class="Navigation">
+        <ul>
+            <li>HP</li>
+            <li>LP</li>
+            <li>Photoshop</li>
+        </ul>
+     </header>
+     
+     <div id="headerMenu" class="clearfix">
+        <ul id="burger" class="">
+            <li></li><li></li><li></li>
+        </ul>
+        </div>
+<div id="menucover"></div>
+<div id="menu">
+	<span id="closeBtn"><i class="fa fa-times"></i></span>
+	<nav id="nav">
+		<ul>
+			<li><a href="/">HOME</a></li>
+			<li><a href="sab.html" rel="noopener noreferrer">作品例</a></li>
+			<li><a href="/">Profil</a></li>
+            <li><a href="/">サイトマップ</a></li>
+			<li><a href="/">mail</a></li>
+			<li><a href="/">LINE</a></li>
+		</ul>
+	</nav>
+</div>
+<!--second-->
+<div class="item">
+<div class="section">
+    <h1><i class="fa fa-keyboard-o" aria-hidden="true"></i>　HP作ります<br>
+        <i class="fa fa-picture-o" aria-hidden="true"></i>　Photoshopで画像加工します</h1>
+<div class="global">
+    <div data-aos="fade-down" id="box1">
+        <a href="https://studiok8.github.io/lp1demo/"><img src="1.png" alt=""></a>   
+    </div>
+　　<div id="box2">
+        <p>シンプルなデザインのHPです。</p>
+        <p>ビビッドな色を使うことでスタイリッシュなデザインに、<br>
+           パステルカラーを使うことで柔らかく可愛らしいページになります。</p>
+    </div>
+    <div data-aos="flip-right" id="box1">
+        <a href="https://studiok8.github.io/gym/"><img src="2.png" alt=""></a>
+    </div>
+    <div id="box2">
+        <p>ゴージャス感を出したデザインのHPです。</p>
+        <p>大人の年代をターゲットにする場合や高級感を出したいアピールに最適です。<br>
+            メニューバーをjQueryを使い、スクロールしても固定して表示できるようになっています。</p>
+
+    </div>
+    <div data-aos="zoom-in" id="box1">
+        <a href="https://studiok8.github.io/marriage/#"><img src="3.png" alt=""></a>
+    </div>
+    <div id="box2">
+        <p>多様に使えるデザインのHPです。</p>
+        <p>リンク先が多かったりとページ数が多いときに使えます。<br>
+           ベーシックな作りになっていて強調したい部分を拡大したりanimateを使って動きを出しています。</p>
+    </div>
+    <div data-aos="fade-down" id="box1">
+        <a href="https://studiok8.github.io/cafedemo/"><img src="4.png" alt=""></a>
+    </div>
+    <div id="box2">
+        <p>可愛らしさを出したデザインのHPです。</p>
+        <p>女性をターゲットにしたページになっています。<br>
+           aos.Jsを使用して動きをつけています。</p>
+    </div>
+    <div data-aos="zoom-out" id="box1">
+        <a href="https://studiok8.github.io/lpdemo/"><img src="5.png" alt=""></a>
+    </div>
+    <div id="box2">
+        <p>シンプルなデザインのHPです。</p>
+        <p>トップページはシンプルなのでメニューからリンクサイトにアクセスしてもらえるようにしています。<br>
+           Jsを使用してハンバーメニューを作っています。</p>
+    </div>
+    <div data-aos="zoom-out-up" id="box1">
+        <img src="6.png" alt="">
+    </div>
+    <div id="box2">
+        <p>レタッチ</p>
+        <p>photoshopを使用して肌のキメを整え、メイクを足しています。</p>
+    </div>
+    <div data-aos="zoom-in-down" id="box1">
+        <img src="7.png" alt="">
+    </div>
+    <div id="box2">
+        <p>レタッチ</p>
+        <p>photoshopを使用して美肌修正と光の調整で写真に特別感を出しています。</p>
+    </div>
+    <div data-aos="fade-left" id="box1">
+        <img src="8.png" alt="">
+    </div>
+    <div id="box2">
+        <p>デザイン</p>
+        <p>photoshopを使用して３枚の写真を合成し色調を変えています。<br>
+            採光取りにブラシなどを使用しています。</p>
+    </div>
+</div>
+</div>
+</div>
+<script>
+    AOS.init();
+</script> 
+<script>
+    $('ul#burger').hover(function(){
+		var wH = $(window).width();
+		var clrClass = [
+				'yellow',
+				'brown',
+				'blue',
+				'red',
+				'green',
+				'orange'
+			],
+			rndmClass = clrClass[Math.floor(Math.random() * clrClass.length)];
+		$('ul#burger').addClass('active');
+		$('#menu')
+			.addClass(rndmClass)
+			.css({display:'block',opacity:'0',right:'-30px'})
+			.stop().animate({opacity:'1',right:'0'},200);
+				setTimeout(function(){
+					$('#menucover').fadeIn(200);
+					if(wH < 1024){
+							$('#closeBtn')
+								.addClass('active');
+					}
+				},200);
+		$('#menucover').hover(closeMenu);
+		$('#closeBtn').on('click',function(){
+			$(this).removeClass('active')
+			closeMenu();
+		});
+		function closeMenu(){
+			$('ul#burger').removeClass('active');
+			$('#menucover').fadeOut(200);
+			$('#menu')
+				.removeClass(rndmClass)
+				.stop().animate({right:'-30px',opacity:'0'},200,function(){
+					$(this).css({display:'none'});
+				});
+		}
+	});
+</script>
+</body>
+</html>
